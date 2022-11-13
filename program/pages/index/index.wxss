@@ -1,0 +1,4 @@
+/**index.wxss**/
+.item{
+    height: 300px;
+}

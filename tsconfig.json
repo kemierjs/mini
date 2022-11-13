@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+//    "types": ["miniprogram-api-typings"],
+    "version": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "typeRoots" : [
+      "./program/typings/",
+      "./node_modules/miniprogram-api-typings"
+    ],
+    "outDir": "./dist"
+  },
+//  "ts-node": {
+//    "files": true // 增加这一条配置即可，其他同默认配置
+//  },
+  "include": [
+    "program",
+    ".eslintrc.js"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
