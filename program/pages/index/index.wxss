@@ -1,4 +1,35 @@
 /**index.wxss**/
-.item{
-    height: 300px;
+page {
+    background-color: #39b54a;
+    padding: 20rpx 40rpx;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+
+.header {
+    background: url("https://kemierjs.github.io/asserts/777.png") no-repeat center;
+    background-size: 100%;
+    height: 348rpx;
+}
+
+.context {
+    display: flex;
+    background: url("https://kemierjs.github.io/asserts/999.png") repeat-y center;
+    background-size: 100%;
+    width: 100.3%;
+}
+
+.footer {
+    background: url("https://kemierjs.github.io/asserts//footer.png") no-repeat center;
+    background-size: 100%;
+    height: 252.62rpx;
+    width: 101.01%;
+    transform: translateX(-3.81rpx);
 }

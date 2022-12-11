@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "amd",
 //    "types": ["miniprogram-api-typings"],
     "version": true,
-    "allowJs": false,
+    "allowJs": true,
     "skipLibCheck": true,
+    "strict": false,
     "typeRoots" : [
-      "./program/typings/",
-      "./node_modules/miniprogram-api-typings"
+      "./program/typings/"
     ],
-    "outDir": "./dist"
+    "outDir": "./dist",
   },
 //  "ts-node": {
 //    "files": true // 增加这一条配置即可，其他同默认配置

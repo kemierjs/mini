@@ -44,7 +44,7 @@
   },
   "miniprogramRoot": "program/",
   "compileType": "miniprogram",
-  "libVersion": "2.19.4",
+  "libVersion": "2.25.3",
   "appid": "wxb561b45c2fca2ea0",
   "projectname": "miniprogram-92",
   "condition": {},
